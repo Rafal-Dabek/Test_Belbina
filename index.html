@@ -14,98 +14,74 @@
     
 <div class="container"> 
     <h1>
-        TEST STYLÓW COACHINGU
+        Test Belbina
     </h1>
 
 
     <div class="col col-lg-12">
-
+        <p>
+            Celem tego kwestionariusza jest określenie optymalnych ról, jakie w zespole może spełniać
+            osoba, która go wypełni. 
+        </p>
         <P class="instrukcja">
             <b>
-                Określ swoją reakcję w każdej sytuacji, przyznając trzy punkty odpowiedzi, którą
-                wybierzesz jako pierwszą, dwa tej, którą wybierzesz jako drugą i jeden tej, którą
-                wybierzesz jako ostatnią. 
+                W każdej z siedmiu sekcji, zawierającej po osiem pytań, trzeba przydzielić dokładnie 10
+                punktów do zdań, które uważacie, że najlepiej opisują Wasze zachowanie w pracy zespołowej.
+                Punkty mogą być przydzielone do kilku zdań, w skrajnych przypadkach, można je przypisać
+                do jednego zdania, bądź do wszystkich. Na zakończenie należy wpisać wyniki do tabelki
+                znajdującej się po kwestionariuszu. 
             </b> 
         </P>
         
        <p class="pytanie">
            <b>
            <b>
-            1. Dwaj pracownicy w Twoim dziale nie mogą dojść ze sobą do porozumienia.
-            Jeden z nich poprosił Cię o interwencję. Mówisz:
+            1. Co mogę wnieść do zespołu? 
            </b> 
            </b>
        </p> 
-
-
-       <ol type="a">   
-            <li>Dlaczego mam się w to angażować? Musicie się porozumieć sami albo
-                przyjść do mnie razem  
-    
-                <form>
-    
-                    <input type="radio" name="Question" id="0_1_3" onclick="display(id)" class="A"
-                        value="3">3
-                        
-                    <input type="radio" name="Question" id="0_1_2" onclick="display(id)" class="A"
-                        value="2">2
-                      
-                    <input type="radio" name="Question" id="0_1_1" onclick="display(id)" class="A"
-                        value="1">1
-    
-                </form>
-                    
-                    
-            </li>
-
-        
-
-            <li>Porozmawiam z tym drugim pracownikiem (myśląc, że dowiesz się, jak
-            wygląda prawda, zanim sytuacja wymknie się spod kontroli)
-
-             <form>
-                <input type="radio" name="Question" id="0_2_3" onclick="display(id)" class="B"
-                value="3">3
-
-                <input type="radio" name="Question" id="0_2_2" onclick="display(id)" class="B"
-                value="2">2
-
-                <input type="radio" name="Question" id="0_2_1" onclick="display(id)" class="B"
-                value="1">1
-
-             </form>
-        
-                
-
-            </li>
+       <ol type="a">
+        <li>
+            Wydaje mi się, że jestem w stanie szybko dostrzec i wykorzystać nowe możliwości.
+            <form >
+                <label for="points">Wybierz liczbe pkt:</label>
+                <select id="1" name="points">
+                  <option value="0" onclick="display(id)">0</option>
+                  <option value="1" onclick="display(id)">1</option>
+                  <option value="2" onclick="display(id)">2</option>
+                  <option value="3" onclick="display(id)">3</option>
+                </select>
+               
+              </form>
+        </li>
+        <li>
+            Mogę dobrze współpracować z bardzo różnymi ludźmi. 
+        </li>
+        <li>
+            Generowanie pomysłów jest moją wrodzoną zaletą. 
+        </li>
+        <li>
+            Jestem w stanie rozpoznać i pomóc w udziale ludziom, którzy, jak mi się wydaje, są w stanie wnieść coś wartościowego do realizacji celów grupy. 
+        </li>
+        <li>
+            Dzięki osobistej efektywności jestem w stanie dobrze realizować ustalone zadania.
+        </li>
+        <li>
+            Jestem gotów pogodzić się z niepopularnością, jeżeli w efekcie doprowadzi do korzystnych rezultatów. 
+        </li>
+        <li>
+            Z reguły jestem w stanie wyczuć, co jest, a co nie jest realistyczne i wykonalne. 
+        </li>
+        <li>
+            Jestem w stanie podać racjonalne argumenty za różnymi alternatywami działania, bez uprzedzeń lub nieprzychylnego nastawienia do nich.  
+        </li>
 
 
 
-            <li>Czy możesz powiedzieć mi coś więcej? Może razem znajdziemy jakieś
-            rozwiązanie?
-        
 
-            <form>
-              
-                
-                <input type="radio" name="Question" id="0_3_3" onclick="display(id)" class="C"
-                value="3">3
-            
-                <input type="radio" name="Question" id="0_3_2" onclick="display(id)" class="C"
-                value="2">2
-            
-                <input type="radio" name="Question" id="0_3_1" onclick="display(id)" class="C"
-                value="1">1
-                
-              
-            
-            </form>
-                
-        
-            </li>
-      
-        </ol>
+       </ol>
 
+       
         <button type="button" id="0" onclick="reset(id)">
             Reset
         </button>
@@ -118,9 +94,7 @@
         
        <p class="pytanie">
       <b>
-        2. Podczas spotkania z pracownikami jeden z nich zarzuca Ci, że Twoje działania
-        w roli przywódcy idą na marne i nie prowadzą do niczego. Po spotkaniu
-        mówisz:
+        2. Jeżeli mam jakąś wadę pracy zespołowej, to prawdopodobnie byłoby nią to, że:
       </b>  
 
 
@@ -129,60 +103,34 @@
 
        <ol type="a">
 
-        <li>Pomówmy o tym na osobności
-            
-            <form>
-                <input type="radio" name="Question" id="1_1_3" onclick="display(id)" class="A"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="1_1_2" onclick="display(id)" class="A"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="1_1_1" onclick="display(id)" class="A"
-                    value="1">1
-              
-                
-            </form>
-        
-        
+        <li>
+            Nie czuję się dobrze, o ile spotkania nie są dobrze ustrukturalizowane, kontrolowane i w ogóle dobrze prowadzone. 
+        </li>
+        <li>
+            Mam skłonność do bycia zbyt tolerancyjnym w stosunku do osób, które mają interesujący punkt widzenia, a który nie był wystarczająco przedyskutowany. 
+        </li>
+        <li>
+            Mam skłonność do mówienia zbyt dużo, gdy grupa zajmuje się nowymi pomysłami. 
+        </li>
+        <li>
+            Mój obiektywizm sprawia, że jest mi trudno być równie entuzjastycznym(ą) jak koledzy. 
+        </li>
+        <li>
+            Czasami jestem postrzegany jako gwałtowny(a) i autorytarny(a), jeżeli zachodzi konieczność zrobienia czegoś naprawdę. 
+        </li>
+        <li>
+            Trudno mi grać rolę przywódcy — może dlatego, że jestem nadmiernie wrażliwy(a) na atmosferę w zespole. 
+        </li>
+        <li>
+            Czasami miewam skłonność do zbyt głębokiego zastanawiania się nad
+            przychodzącymi mi do głowy pomysłami, tak, że tracę kontakt, z tym, co
+            się dzieje w grupie. 
+        </li>
+        <li>
+            Moi współpracownicy postrzegają mnie jako nadmiernie zamartwiającego
+            się szczegółami i możliwością, że coś pójdzie źle. 
         </li>
 
-
-        <li>Pozwól, że jeszcze raz ci wyjaśnię cele projektu  
-
-
-            <form>
-                <input type="radio" name="Question" id="1_2_3" onclick="display(id)" class="B"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="1_2_2" onclick="display(id)" class="B"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="1_2_1" onclick="display(id)" class="B"
-                    value="1">1
-              
-                
-            </form>
-
-        </li>
-
-
-        <li>Naprawdę zmartwiła mnie twoja wypowiedź. Co miałeś na myśli?
-            
-            <form>
-                <input type="radio" name="Question" id="1_3_3" onclick="display(id)" class="C"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="1_3_2" onclick="display(id)" class="C"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="1_3_1" onclick="display(id)" class="C"
-                    value="1">1
-                  
-            </form>
-        
-        
-        </li>
 
 
       </ol>
@@ -198,64 +146,39 @@
         
        <p class="pytanie">
        <b>
-        3. Podczas prywatnej rozmowy z innym menedżerem dowiadujesz się, że jego
-        stanowisko pracy może zostać zlikwidowane. Mówisz:
+        3. Kiedy współpracuję z innymi? 
        </b> 
        </p> 
        <ol type="a">
 
-        <li>Zastanówmy się nad możliwymi rozwiązaniami, dobrze?
-            
-            <form>
-                <input type="radio" name="Question" id="2_1_3" onclick="display(id)" class="A"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="2_1_2" onclick="display(id)" class="A"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="2_1_1" onclick="display(id)" class="A"
-                    value="1">1
-              
-                
-            </form>
-        
+        <li>
+            Mam skłonność do wpływania na innych ludzi bez używania nacisku. 
+        </li>
+        <li>
+            Moja czujność zapobiega popełnieniu niechlujnych błędów i zaniedbań.
+        </li>
+        <li>
+            Jestem gotów naciskać na przejście do konkretów w celu upewnienia się,
+            że spotkanie nie marnuje czasu uczestników lub nie zbacza z celu. 
+
+        <li>
+            Można liczyć na to, że wniosę oryginalny pomysł / punkt widzenia. 
+        </li>
+        <li>
+            Zawsze jestem gotów, w imię wspólnego dobra, poprzeć dobrą sugestię. 
+        </li>
+        <li>
+            Lubię zapoznawać się z najnowszymi pomysłami oraz koncepcjami. 
+        </li>
+        <li>
+            Wydaje mi się, że moja zdolność oceny może pomagać w podejmowaniu
+            właściwych decyzji. 
+        </li>
+        <li>
+            Można na łunie polegać, że konieczna do wykonania praca zostanie
+            zorganizowana 
         </li>
 
-        <li>Nic, ale próbujesz uzyskać dodatkowe informacje 
-            
-            <form>
-                <input type="radio" name="Question" id="2_2_3" onclick="display(id)" class="B"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="2_2_2" onclick="display(id)" class="B"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="2_2_1" onclick="display(id)" class="B"
-                    value="1">1
-              
-                
-            </form>
-        
-        </li>
-
-
-        <li>Czy chcesz o tym porozmawiać?  
-
-            <form>
-                <input type="radio" name="Question" id="2_3_3" onclick="display(id)" class="C"
-                    value="3">3
-                   
-                <input type="radio" name="Question" id="2_3_2" onclick="display(id)" class="C"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="2_3_1" onclick="display(id)" class="C"
-                    value="1">1
-              
-                
-            </form>
-
-
-        </li>
 
       </ol>
 
@@ -271,72 +194,43 @@
         
        <p class="pytanie">
        <b>
-        4. W twoim dziale nastąpi likwidacja etatów. Zaplanowano spotkanie, aby to
-        ogłosił, ale drugi kierownik jest w związku z tym przerażony i może się nie
-        pojawić na tym spotkaniu. Mówisz: 
+        4. Moją charakterystyczną cechą w pracy grupowej jest: 
+
        </b> 
        </p> 
        <ol type="a">
+        <li>
+            Jestem bardzo zainteresowany lepszym poznaniem współpracowników.
+        </li>
+        <li>
+            Nie obawiam się zakwestionować poglądów innych uczestników, ani
+            posiadać inne poglądy niż cała reszta. 
+        </li>
+        <li>
+            Z reguły jestem w stanie znaleźć argumentację, która obali nierozsądną
+            propozycję.
 
-
-        <li>Rozumiem, że nie obawiasz się przekazywania złych wiadomości, ale
-            wszyscy oczekują, że się pojawisz na spotkaniu. Zastanówmy się, jak
-            możemy zrobić to razem 
-
-
-            <form>
-                <input type="radio" name="Question" id="3_1_3" onclick="display(id)" class="A" 
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="3_1_2" onclick="display(id)" class="A" 
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="3_1_1" onclick="display(id)" class="A"
-                    value="1">1
-              
-                
-            </form>
-
-            
+        <li>
+            Wydaje mi się, że mam talent do przekształcania planu w rzeczywiste
+            działania. 
+        </li>
+        <li>
+            Mam skłonność do występowania z czymś niespodziewanym i unikania
+            oczywistych rozwiązań. 
+        </li>
+        <li>
+            Do każdego mojego działania wnoszę perfekcjonizm. 
+        </li>
+        <li>
+            Jestem gotów wykorzystać również kontakty spoza grupy.  
+        </li>
+        <li>
+            Nawet, jeśli interesuje mnie wiele aspektów sprawy, nie mam problemów
+            z podjęciem decyzji, co do wyboru rozwiązania 
         </li>
 
 
-        <li>Musisz przyjść na spotkanie. Pomyśl o reakcjach ludzi, jeżeli się nie
-            pojawisz  
         
-            <form>
-                <input type="radio" name="Question" id="3_2_3" onclick="display(id)" class="B"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="3_2_2" onclick="display(id)" class="B"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="3_2_1" onclick="display(id)" class="B"
-                    value="1">1
-              
-                
-            </form>
-        
-        </li>
-
-
-        <li>Jak sądzisz, co możemy zrobić, aby było to łatwiejsze dla nas obu? 
-        
-        
-            <form>
-                <input type="radio" name="Question" id="3_3_3" onclick="display(id)" class="C"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="3_3_2" onclick="display(id)" class="C"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="3_3_1" onclick="display(id)" class="C"
-                    value="1">1 
-              
-                
-            </form>
-        
-        </li>
       </ol>
     
         <button type="button" id="3" onclick="reset(id)">
@@ -350,67 +244,42 @@
         
        <p class="pytanie">
        <b>
-        5. Rozdzielasz obowiązki związane z pracą i stwierdzasz, że istnieje poważna
-        sprzeczność pomiędzy nimi a priorytetami w pracy pracownika z Twojego
-        zespołu. Mówisz: 
+        5. Osiągam satysfakcję z pracy, gdyż: 
        </b> 
        </p> 
        <ol type="a">
+        <li>
+            Lubię analizować sytuacje i rozważać wszystkie możliwe rozwiązania. 
+        </li>
+        <li>
+            Jestem zainteresowany(a) znajdywaniem praktycznych rozwiązań
+            problemów.
+        </li>
+        <li>
+            Lubię mieć przekonanie, że sprzyjam kształtowaniu dobrych kontaktów
+            międzyludzkich w pracy. 
 
-        <li>Naprawdę szanuje twoje poglądy i uczucia dotyczące tej sprawy.
-            Porozmawiajmy o priorytetach 
-
-            <form>
-                <input type="radio" name="Question" id="4_1_3" onclick="display(id)" class="A" 
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="4_1_2" onclick="display(id)" class="A"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="4_1_1" onclick="display(id)" class="A"
-                    value="1">1
-              
-                
-            </form>
+        <li>
+            Mogę mieć silny wpływ na decyzje. 
+        </li>
+        <li>
+            Mam szansę spotykać się z ludźmi, którzy mają coś nowego do
+            zaoferowania. 
+        </li>
+        <li>
+            Jestem w stanie sprawić, aby ludzie zgodzili się na konieczny kierunek
+            działania. 
 
         </li>
+        <li>
+            Czuję się w swoim żywiole, gdy mogę poświęcić zadaniu całą swoją
+            uwagę. 
+        </li>
+        <li>
+            Lubię obszar, który wytęża moją wyobraźnię. 
+        </li>
 
-        <li>Rozdzieliłem już prawie wszystkie zadania i nie mogę tego zmienić.
-            Musisz dokonać zmian dotyczących planowania pracy  
         
-
-            <form>
-                <input type="radio" name="Question" id="4_2_3" onclick="display(id)" class="B"
-                    value="3">3
-                   
-                <input type="radio" name="Question" id="4_2_2" onclick="display(id)" class="B"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="4_2_1" onclick="display(id)" class="B"
-                    value="1">1
-              
-                
-            </form>
-
-        </li>
-
-        <li>Istnieje sposób na pogodzenie naszych celów. Zobaczmy, czy mamy
-            jakieś wspólne priorytety 
-
-            <form>
-                <input type="radio" name="Question" id="4_3_3" onclick="display(id)" class="C"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="4_3_2" onclick="display(id)" class="C"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="4_3_1" onclick="display(id)" class="C"
-                    value="1">1
-              
-                
-            </form>
-
-        </li>
 
       </ol>
 
@@ -426,64 +295,44 @@
         
        <p class="pytanie">
        <b>
-        6. Twoja zwierzchniczka wzywa Cię do swojego biura i prosi o wyrażenie opinii
-        o pracowniku, który nie jest z twojego działu. Mówisz: 
+        6. Jeśli nagle okazuje się, że muszę wykonać trudne zadanie, w krótkim czasie,
+        wspólnie z nieznanymi ludźmi: 
        </b>
        </p> 
        <ol type="a">
+        <li>
+            Mam ochotę zaszyć się w kącie, aby wymyślić sposób wyjścia z impasu. 
+        </li>
+        <li>
+            Był(a)bym gotów współpracować z osobą, która wykazywałaby
+            najbardziej pozytywne nastawienie. 
+        </li>
+        <li>
+            Znalazł(a)bym sposób na zredukowanie rozmiaru zadania, poprze
+            ustalenie, co mogłyby zrobić poszczególne osoby. 
 
-        <li>Czy zanim wyrażę swoją opinię, możemy porozmawiać o
-            krótkookresowych i długookresowych celach?  
+        <li>
+            Moje poczucie obowiązkowości pomogłoby w zapewnieniu, że działamy
+            terminowo. 
+        </li>
+        <li>
+            Wydaje mi się, że zachował(a)bym opanowanie i możliwość trzeźwego
+            myślenia.
+        </li>
+        <li>
+            Pomimo presji zachował(a)bym stałość celu. 
+
+        </li>
+        <li>
+            Był(a)bym gotów (gotowa) przejąć prowadzenie, widząc, że grupa nie
+            czyni postępów. 
+        </li>
+        <li>
+            Rozpocząłbym dyskusję, licząc na wywołanie opinii innych i rozpoczęcie
+            działania
+        </li>
+
         
-            <form>
-                <input type="radio" name="Question" id="5_1_3" onclick="display(id)" class="A"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="5_1_2" onclick="display(id)" class="A"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="5_1_1" onclick="display(id)" class="A"
-                    value="1">1
-              
-                
-            </form>
-        
-        </li>
-
-        <li>Rozmawia Pani z niewłaściwą osobą 
-            
-            <form>
-                <input type="radio" name="Question" id="5_2_3" onclick="display(id)" class="B"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="5_2_2" onclick="display(id)" class="B"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="5_2_1" onclick="display(id)" class="B"
-                    value="1">1
-              
-                
-            </form>
-        </li>
-
-        <li>Jestem naprawdę zadowolony, że sprawdza Pani naszych pracowników.
-            Myślę, że… 
-
-
-            <form>
-                <input type="radio" name="Question" id="5_3_3" onclick="display(id)" class="C"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="5_3_2" onclick="display(id)" class="C"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="5_3_1" onclick="display(id)" class="C"
-                    value="1">1
-              
-                
-            </form>
-
-        </li>
       </ol>
 
         <button type="button" id="5" onclick="reset(id)">
@@ -497,69 +346,47 @@
         
        <p class="pytanie">
        <b>
-        7. Zbliża się termin zakończenia projektu koordynowanego przez jednego z
-        Twoich najbliższych kierowników odpowiedzialnych za współprace z
-        klientami. Starasz się dotrzymać terminu, ale pracownik jest zdenerwowany z
-        powodu problemów rodzinnych. Mówisz: 
+        7. Jeżeli chodzi o problemy, z jakimi spotykam się podczas pracy w grupie: 
+
        </b>
 
        </p> 
        <ol type="a">
+        <li>
+            Jestem skłonny(a) okazywać zniecierpliwienie w stosunku do tych, którzy
+            hamują postęp prac. 
+        </li>
+        <li>
+            Inni mogą krytykować mnie za bycie zbyt analitycznym i
+            niewystarczająco intuicyjnym. 
+        </li>
+        <li>
+            Moje pragnienie, aby praca została staranie wykonana, może
+            wstrzymywać pójście do przodu.  
 
-        <li>Ten projekt trzeba skończyć na czas. Co możesz w tej sprawie zrobić? 
-            
-            <form>
-                <input type="radio" name="Question" id="6_1_3" onclick="display(id)" class="A"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="6_1_2" onclick="display(id)" class="A" 
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="6_1_1" onclick="display(id)" class="A"
-                    value="1">1
-              
-                
-            </form>
+        <li>
+            Dość łatwo zaczynam się nudzić i potrzebuję, aby w zespole byli
+            interesujący uczestnicy, którzy są w stanie wykrzesać ze mnie
+            zainteresowanie.  
+        </li>
+        <li>
+            Trudno mi rozpocząć pracę, o ile cel nie jest jasny. 
+        </li>
+        <li>
+            Czasami miewam kłopoty z wyjaśnieniem złożonych zagadnień, które
+            chcę przekazać. 
 
         </li>
-
-
-        <li>Trzeba skończyć ten projekt – będziesz musiał zostawić swoje
-            problemy osobiste w domu. 
-
-            <form>
-                <input type="radio" name="Question" id="6_2_3" onclick="display(id)" class="B"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="6_2_2" onclick="display(id)" class="B"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="6_2_1" onclick="display(id)" class="B"
-                    value="1">1
-              
-                
-            </form>
+        <li>
+            Świadomie wymagam od innych rzeczy, których sam nie był(a)bym w
+            stanie wykonać. 
 
         </li>
-
-        <li>Można jeszcze zadzwonić do klienta i dowiedzieć się, czy można
-            przedłużyć termin oddania twojej części projektu 
-
-
-            <form>
-                <input type="radio" name="Question" id="6_3_3" onclick="display(id)" class="C"
-                    value="3">3
-                  
-                <input type="radio" name="Question" id="6_3_2" onclick="display(id)" class="C"
-                    value="2">2
-                  
-                <input type="radio" name="Question" id="6_3_1" onclick="display(id)" class="C"
-                    value="1">1
-              
-                
-            </form>
-
+        <li>
+            Waham się, gdy należałoby przeforsować mój punkt widzenia, gdy mam
+            do czynienia z jawną opozycją. 
         </li>
+        
 
 
       </ol>
