@@ -1,3 +1,1121 @@
+
+
+function zapisz()
+{
+
+    value_select_1_1 = parseInt(document.getElementById("select_1_1").value)
+    value_select_1_2 = parseInt(document.getElementById("select_1_2").value)
+    value_select_1_3 = parseInt(document.getElementById("select_1_3").value)
+    value_select_1_4 = parseInt(document.getElementById("select_1_4").value)
+    value_select_1_5 = parseInt(document.getElementById("select_1_5").value)
+    value_select_1_6 = parseInt(document.getElementById("select_1_6").value)
+    value_select_1_7 = parseInt(document.getElementById("select_1_7").value)
+    value_select_1_8 = parseInt(document.getElementById("select_1_8").value)
+
+    if(value_select_1_1+value_select_1_2+value_select_1_3+value_select_1_4+
+    value_select_1_5+value_select_1_6+value_select_1_7+value_select_1_8 != 10)
+    {
+      alert("Punkty muszą byc rozdzielone tak aby ich suma wyniosła 10")
+    }
+    else
+    {
+        alert("dobra suma punktów")
+    }
+
+}
+
+
+// function checkselect1()
+// {
+//     value_select_1_1 = document.getElementById("select_1_1").value
+//     value_select_1_2 = document.getElementById("select_1_2").value
+//     value_select_1_3 = document.getElementById("select_1_3").value
+//     value_select_1_4 = document.getElementById("select_1_4").value
+//     value_select_1_5 = document.getElementById("select_1_5").value
+//     value_select_1_6 = document.getElementById("select_1_6").value
+//     value_select_1_7 = document.getElementById("select_1_7").value
+//     value_select_1_8 = document.getElementById("select_1_8").value
+
+
+
+
+
+//     option_o_0_0 = document.getElementById("o_0_0")
+//     option_o_0_1 = document.getElementById("o_0_1")
+//     option_o_0_2 = document.getElementById("o_0_2")
+//     option_o_0_3 = document.getElementById("o_0_3")
+//     option_o_0_4 = document.getElementById("o_0_4")
+//     option_o_0_5 = document.getElementById("o_0_5")
+//     option_o_0_6 = document.getElementById("o_0_6")
+//     option_o_0_7 = document.getElementById("o_0_7")
+//     option_o_0_8 = document.getElementById("o_0_8")
+//     option_o_0_9 = document.getElementById("o_0_9")
+//     option_o_0_10 = document.getElementById("o_0_10")
+
+//     option_o_1_0 = document.getElementById("o_1_0")
+//     option_o_1_1 = document.getElementById("o_1_1")
+//     option_o_1_2 = document.getElementById("o_1_2")
+//     option_o_1_3 = document.getElementById("o_1_3")
+//     option_o_1_4 = document.getElementById("o_1_4")
+//     option_o_1_5 = document.getElementById("o_1_5")
+//     option_o_1_6 = document.getElementById("o_1_6")
+//     option_o_1_7 = document.getElementById("o_1_7")
+//     option_o_1_8 = document.getElementById("o_1_8")
+//     option_o_1_9 = document.getElementById("o_1_9")
+//     option_o_1_10 = document.getElementById("o_1_10")
+
+//     option_o_2_0 = document.getElementById("o_2_0")
+//     option_o_2_1 = document.getElementById("o_2_1")
+//     option_o_2_2 = document.getElementById("o_2_2")
+//     option_o_2_3 = document.getElementById("o_2_3")
+//     option_o_2_4 = document.getElementById("o_2_4")
+//     option_o_2_5 = document.getElementById("o_2_5")
+//     option_o_2_6 = document.getElementById("o_2_6")
+//     option_o_2_7 = document.getElementById("o_2_7")
+//     option_o_2_8 = document.getElementById("o_2_8")
+//     option_o_2_9 = document.getElementById("o_2_9")
+//     option_o_2_10 = document.getElementById("o_2_10")
+
+//     option_o_3_0 = document.getElementById("o_3_0")
+//     option_o_3_1 = document.getElementById("o_3_1")
+//     option_o_3_2 = document.getElementById("o_3_2")
+//     option_o_3_3 = document.getElementById("o_3_3")
+//     option_o_3_4 = document.getElementById("o_3_4")
+//     option_o_3_5 = document.getElementById("o_3_5")
+//     option_o_3_6 = document.getElementById("o_3_6")
+//     option_o_3_7 = document.getElementById("o_3_7")
+//     option_o_3_8 = document.getElementById("o_3_8")
+//     option_o_3_9 = document.getElementById("o_3_9")
+//     option_o_3_10 = document.getElementById("o_3_10")
+
+//     option_o_4_0 = document.getElementById("o_4_0")
+//     option_o_4_1 = document.getElementById("o_4_1")
+//     option_o_4_2 = document.getElementById("o_4_2")
+//     option_o_4_3 = document.getElementById("o_4_3")
+//     option_o_4_4 = document.getElementById("o_4_4")
+//     option_o_4_5 = document.getElementById("o_4_5")
+//     option_o_4_6 = document.getElementById("o_4_6")
+//     option_o_4_7 = document.getElementById("o_4_7")
+//     option_o_4_8 = document.getElementById("o_4_8")
+//     option_o_4_9 = document.getElementById("o_4_9")
+//     option_o_4_10 = document.getElementById("o_4_10")
+
+//     option_o_5_0 = document.getElementById("o_5_0")
+//     option_o_5_1 = document.getElementById("o_5_1")
+//     option_o_5_2 = document.getElementById("o_5_2")
+//     option_o_5_3 = document.getElementById("o_5_3")
+//     option_o_5_4 = document.getElementById("o_5_4")
+//     option_o_5_5 = document.getElementById("o_5_5")
+//     option_o_5_6 = document.getElementById("o_5_6")
+//     option_o_5_7 = document.getElementById("o_5_7")
+//     option_o_5_8 = document.getElementById("o_5_8")
+//     option_o_5_9 = document.getElementById("o_5_9")
+//     option_o_5_10 = document.getElementById("o_5_10")
+
+//     option_o_6_0 = document.getElementById("o_6_0")
+//     option_o_6_1 = document.getElementById("o_6_1")
+//     option_o_6_2 = document.getElementById("o_6_2")
+//     option_o_6_3 = document.getElementById("o_6_3")
+//     option_o_6_4 = document.getElementById("o_6_4")
+//     option_o_6_5 = document.getElementById("o_6_5")
+//     option_o_6_6 = document.getElementById("o_6_6")
+//     option_o_6_7 = document.getElementById("o_6_7")
+//     option_o_6_8 = document.getElementById("o_6_8")
+//     option_o_6_9 = document.getElementById("o_6_9")
+//     option_o_6_10 = document.getElementById("o_6_10")
+
+//     option_o_7_0 = document.getElementById("o_7_0")
+//     option_o_7_1 = document.getElementById("o_7_1")
+//     option_o_7_2 = document.getElementById("o_7_2")
+//     option_o_7_3 = document.getElementById("o_7_3")
+//     option_o_7_4 = document.getElementById("o_7_4")
+//     option_o_7_5 = document.getElementById("o_7_5")
+//     option_o_7_6 = document.getElementById("o_7_6")
+//     option_o_7_7 = document.getElementById("o_7_7")
+//     option_o_7_8 = document.getElementById("o_7_8")
+//     option_o_7_9 = document.getElementById("o_7_9")
+//     option_o_7_10 = document.getElementById("o_7_10")
+
+
+    
+
+
+//     if(value_select_1_1 == 10)
+//     {
+//         option_o_1_0.disabled =true
+//         option_o_1_1.disabled =true
+//         option_o_1_2.disabled =true
+//         option_o_1_3.disabled =true
+//         option_o_1_4.disabled =true
+//         option_o_1_5.disabled =true
+//         option_o_1_6.disabled =true
+//         option_o_1_7.disabled =true
+//         option_o_1_8.disabled =true
+//         option_o_1_9.disabled =true
+//         option_o_1_10.disabled =true
+    
+//         option_o_2_0.disabled =true
+//         option_o_2_1.disabled =true
+//         option_o_2_2.disabled =true
+//         option_o_2_3.disabled =true
+//         option_o_2_4.disabled =true
+//         option_o_2_5.disabled =true
+//         option_o_2_6.disabled =true
+//         option_o_2_7.disabled =true
+//         option_o_2_8.disabled =true
+//         option_o_2_9.disabled =true
+//         option_o_2_10.disabled =true
+    
+//         option_o_3_0.disabled =true
+//         option_o_3_1.disabled =true
+//         option_o_3_2.disabled =true
+//         option_o_3_3.disabled =true
+//         option_o_3_4.disabled =true
+//         option_o_3_5.disabled =true
+//         option_o_3_6.disabled =true
+//         option_o_3_7.disabled =true
+//         option_o_3_8.disabled =true
+//         option_o_3_9.disabled =true
+//         option_o_3_10.disabled =true
+    
+//         option_o_4_0.disabled =true
+//         option_o_4_1.disabled =true
+//         option_o_4_2.disabled =true
+//         option_o_4_3.disabled =true
+//         option_o_4_4.disabled =true
+//         option_o_4_5.disabled =true
+//         option_o_4_6.disabled =true
+//         option_o_4_7.disabled =true
+//         option_o_4_8.disabled =true
+//         option_o_4_9.disabled =true
+//         option_o_4_10.disabled =true
+    
+//         option_o_5_0.disabled =true
+//         option_o_5_1.disabled =true
+//         option_o_5_2.disabled =true
+//         option_o_5_3.disabled =true
+//         option_o_5_4.disabled =true
+//         option_o_5_5.disabled =true
+//         option_o_5_6.disabled =true
+//         option_o_5_7.disabled =true
+//         option_o_5_8.disabled =true
+//         option_o_5_9.disabled =true
+//         option_o_5_10.disabled =true
+    
+//         option_o_6_0.disabled =true
+//         option_o_6_1.disabled =true
+//         option_o_6_2.disabled =true
+//         option_o_6_3.disabled =true
+//         option_o_6_4.disabled =true
+//         option_o_6_5.disabled =true
+//         option_o_6_6.disabled =true
+//         option_o_6_7.disabled =true
+//         option_o_6_8.disabled =true
+//         option_o_6_9.disabled =true
+//         option_o_6_10.disabled =true
+    
+//         option_o_7_0.disabled =true
+//         option_o_7_1.disabled =true 
+//         option_o_7_2.disabled =true
+//         option_o_7_3.disabled =true 
+//         option_o_7_4.disabled =true
+//         option_o_7_5.disabled =true 
+//         option_o_7_6.disabled =true 
+//         option_o_7_7.disabled =true 
+//         option_o_7_8.disabled =true 
+//         option_o_7_9.disabled =true 
+//         option_o_7_10.disabled =true 
+       
+
+//     }
+//     else if(value_select_1_1 == 0)
+//     {
+
+
+
+//       option_o_1_0.disabled =false
+//       option_o_1_1.disabled =false
+//       option_o_1_2.disabled =false
+//       option_o_1_3.disabled =false
+//       option_o_1_4.disabled =false
+//       option_o_1_5.disabled =false
+//       option_o_1_6.disabled =false
+//       option_o_1_7.disabled =false
+//       option_o_1_8.disabled =false
+//       option_o_1_9.disabled =false
+//       option_o_1_10.disabled =false
+  
+//       option_o_2_0.disabled =false
+//       option_o_2_1.disabled =false
+//       option_o_2_2.disabled =false
+//       option_o_2_3.disabled =false
+//       option_o_2_4.disabled =false
+//       option_o_2_5.disabled =false
+//       option_o_2_6.disabled =false
+//       option_o_2_7.disabled =false
+//       option_o_2_8.disabled =false
+//       option_o_2_9.disabled =false
+//       option_o_2_10.disabled =false
+  
+//       option_o_3_0.disabled =false
+//       option_o_3_1.disabled =false
+//       option_o_3_2.disabled =false
+//       option_o_3_3.disabled =false
+//       option_o_3_4.disabled =false
+//       option_o_3_5.disabled =false
+//       option_o_3_6.disabled =false
+//       option_o_3_7.disabled =false
+//       option_o_3_8.disabled =false
+//       option_o_3_9.disabled =false
+//       option_o_3_10.disabled =false
+  
+//       option_o_4_0.disabled =false
+//       option_o_4_1.disabled =false
+//       option_o_4_2.disabled =false
+//       option_o_4_3.disabled =false
+//       option_o_4_4.disabled =false
+//       option_o_4_5.disabled =false
+//       option_o_4_6.disabled =false
+//       option_o_4_7.disabled =false
+//       option_o_4_8.disabled =false
+//       option_o_4_9.disabled =false
+//       option_o_4_10.disabled =false
+  
+//       option_o_5_0.disabled =false
+//       option_o_5_1.disabled =false
+//       option_o_5_2.disabled =false
+//       option_o_5_3.disabled =false
+//       option_o_5_4.disabled =false
+//       option_o_5_5.disabled =false
+//       option_o_5_6.disabled =false
+//       option_o_5_7.disabled =false
+//       option_o_5_8.disabled =false
+//       option_o_5_9.disabled =false
+//       option_o_5_10.disabled =false
+  
+//       option_o_6_0.disabled =false
+//       option_o_6_1.disabled =false
+//       option_o_6_2.disabled =false
+//       option_o_6_3.disabled =false
+//       option_o_6_4.disabled =false
+//       option_o_6_5.disabled =false
+//       option_o_6_6.disabled =false
+//       option_o_6_7.disabled =false
+//       option_o_6_8.disabled =false
+//       option_o_6_9.disabled =false
+//       option_o_6_10.disabled =false
+  
+//       option_o_7_0.disabled =false
+//       option_o_7_1.disabled =false 
+//       option_o_7_2.disabled =false
+//       option_o_7_3.disabled =false 
+//       option_o_7_4.disabled =false
+//       option_o_7_5.disabled =false 
+//       option_o_7_6.disabled =false 
+//       option_o_7_7.disabled =false 
+//       option_o_7_8.disabled =false 
+//       option_o_7_9.disabled =false 
+//       option_o_7_10.disabled =false 
+//     }
+//     else if(value_select_1_1 == 1)
+//     {
+//       option_o_1_0.disabled =false
+//       option_o_1_1.disabled =false
+//       option_o_1_2.disabled =false
+//       option_o_1_3.disabled =false
+//       option_o_1_4.disabled =false
+//       option_o_1_5.disabled =false
+//       option_o_1_6.disabled =false
+//       option_o_1_7.disabled =false
+//       option_o_1_8.disabled =false
+//       option_o_1_9.disabled =false
+//       option_o_1_10.disabled =true
+  
+//       option_o_2_0.disabled =false
+//       option_o_2_1.disabled =false
+//       option_o_2_2.disabled =false
+//       option_o_2_3.disabled =false
+//       option_o_2_4.disabled =false
+//       option_o_2_5.disabled =false
+//       option_o_2_6.disabled =false
+//       option_o_2_7.disabled =false
+//       option_o_2_8.disabled =false
+//       option_o_2_9.disabled =false
+//       option_o_2_10.disabled =true
+  
+//       option_o_3_0.disabled =false
+//       option_o_3_1.disabled =false
+//       option_o_3_2.disabled =false
+//       option_o_3_3.disabled =false
+//       option_o_3_4.disabled =false
+//       option_o_3_5.disabled =false
+//       option_o_3_6.disabled =false
+//       option_o_3_7.disabled =false
+//       option_o_3_8.disabled =false
+//       option_o_3_9.disabled =false
+//       option_o_3_10.disabled =true
+  
+//       option_o_4_0.disabled =false
+//       option_o_4_1.disabled =false
+//       option_o_4_2.disabled =false
+//       option_o_4_3.disabled =false
+//       option_o_4_4.disabled =false
+//       option_o_4_5.disabled =false
+//       option_o_4_6.disabled =false
+//       option_o_4_7.disabled =false
+//       option_o_4_8.disabled =false
+//       option_o_4_9.disabled =false
+//       option_o_4_10.disabled =true
+  
+//       option_o_5_0.disabled =false
+//       option_o_5_1.disabled =false
+//       option_o_5_2.disabled =false
+//       option_o_5_3.disabled =false
+//       option_o_5_4.disabled =false
+//       option_o_5_5.disabled =false
+//       option_o_5_6.disabled =false
+//       option_o_5_7.disabled =false
+//       option_o_5_8.disabled =false
+//       option_o_5_9.disabled =false
+//       option_o_5_10.disabled =true
+  
+//       option_o_6_0.disabled =false
+//       option_o_6_1.disabled =false
+//       option_o_6_2.disabled =false
+//       option_o_6_3.disabled =false
+//       option_o_6_4.disabled =false
+//       option_o_6_5.disabled =false
+//       option_o_6_6.disabled =false
+//       option_o_6_7.disabled =false
+//       option_o_6_8.disabled =false
+//       option_o_6_9.disabled =false
+//       option_o_6_10.disabled =true
+  
+//       option_o_7_0.disabled =false
+//       option_o_7_1.disabled =false 
+//       option_o_7_2.disabled =false
+//       option_o_7_3.disabled =false 
+//       option_o_7_4.disabled =false
+//       option_o_7_5.disabled =false 
+//       option_o_7_6.disabled =false 
+//       option_o_7_7.disabled =false 
+//       option_o_7_8.disabled =false 
+//       option_o_7_9.disabled =false 
+//       option_o_7_10.disabled =true 
+//     }
+//     else if(value_select_1_1 == 2)
+//     {
+//       option_o_1_0.disabled =false
+//       option_o_1_1.disabled =false
+//       option_o_1_2.disabled =false
+//       option_o_1_3.disabled =false
+//       option_o_1_4.disabled =false
+//       option_o_1_5.disabled =false
+//       option_o_1_6.disabled =false
+//       option_o_1_7.disabled =false
+//       option_o_1_8.disabled =false
+//       option_o_1_9.disabled =true
+//       option_o_1_10.disabled =true
+  
+//       option_o_2_0.disabled =false
+//       option_o_2_1.disabled =false
+//       option_o_2_2.disabled =false
+//       option_o_2_3.disabled =false
+//       option_o_2_4.disabled =false
+//       option_o_2_5.disabled =false
+//       option_o_2_6.disabled =false
+//       option_o_2_7.disabled =false
+//       option_o_2_8.disabled =false
+//       option_o_2_9.disabled =true
+//       option_o_2_10.disabled =true
+  
+//       option_o_3_0.disabled =false
+//       option_o_3_1.disabled =false
+//       option_o_3_2.disabled =false
+//       option_o_3_3.disabled =false
+//       option_o_3_4.disabled =false
+//       option_o_3_5.disabled =false
+//       option_o_3_6.disabled =false
+//       option_o_3_7.disabled =false
+//       option_o_3_8.disabled =false
+//       option_o_3_9.disabled =true
+//       option_o_3_10.disabled =true
+  
+//       option_o_4_0.disabled =false
+//       option_o_4_1.disabled =false
+//       option_o_4_2.disabled =false
+//       option_o_4_3.disabled =false
+//       option_o_4_4.disabled =false
+//       option_o_4_5.disabled =false
+//       option_o_4_6.disabled =false
+//       option_o_4_7.disabled =false
+//       option_o_4_8.disabled =false
+//       option_o_4_9.disabled =true
+//       option_o_4_10.disabled =true
+  
+//       option_o_5_0.disabled =false
+//       option_o_5_1.disabled =false
+//       option_o_5_2.disabled =false
+//       option_o_5_3.disabled =false
+//       option_o_5_4.disabled =false
+//       option_o_5_5.disabled =false
+//       option_o_5_6.disabled =false
+//       option_o_5_7.disabled =false
+//       option_o_5_8.disabled =false
+//       option_o_5_9.disabled =true
+//       option_o_5_10.disabled =true
+  
+//       option_o_6_0.disabled =false
+//       option_o_6_1.disabled =false
+//       option_o_6_2.disabled =false
+//       option_o_6_3.disabled =false
+//       option_o_6_4.disabled =false
+//       option_o_6_5.disabled =false
+//       option_o_6_6.disabled =false
+//       option_o_6_7.disabled =false
+//       option_o_6_8.disabled =false
+//       option_o_6_9.disabled =true
+//       option_o_6_10.disabled =true
+  
+//       option_o_7_0.disabled =false
+//       option_o_7_1.disabled =false 
+//       option_o_7_2.disabled =false
+//       option_o_7_3.disabled =false 
+//       option_o_7_4.disabled =false
+//       option_o_7_5.disabled =false 
+//       option_o_7_6.disabled =false 
+//       option_o_7_7.disabled =false 
+//       option_o_7_8.disabled =false 
+//       option_o_7_9.disabled =true 
+//       option_o_7_10.disabled =true 
+//     }
+//     else if(value_select_1_1 == 3)
+//     {
+          
+//       option_o_1_0.disabled =false
+//       option_o_1_1.disabled =false
+//       option_o_1_2.disabled =false
+//       option_o_1_3.disabled =false
+//       option_o_1_4.disabled =false
+//       option_o_1_5.disabled =false
+//       option_o_1_6.disabled =false
+//       option_o_1_7.disabled =false
+//       option_o_1_8.disabled =true
+//       option_o_1_9.disabled =true
+//       option_o_1_10.disabled =true
+  
+//       option_o_2_0.disabled =false
+//       option_o_2_1.disabled =false
+//       option_o_2_2.disabled =false
+//       option_o_2_3.disabled =false
+//       option_o_2_4.disabled =false
+//       option_o_2_5.disabled =false
+//       option_o_2_6.disabled =false
+//       option_o_2_7.disabled =false
+//       option_o_2_8.disabled =true
+//       option_o_2_9.disabled =true
+//       option_o_2_10.disabled =true
+  
+//       option_o_3_0.disabled =false
+//       option_o_3_1.disabled =false
+//       option_o_3_2.disabled =false
+//       option_o_3_3.disabled =false
+//       option_o_3_4.disabled =false
+//       option_o_3_5.disabled =false
+//       option_o_3_6.disabled =false
+//       option_o_3_7.disabled =false
+//       option_o_3_8.disabled =true
+//       option_o_3_9.disabled =true
+//       option_o_3_10.disabled =true
+  
+//       option_o_4_0.disabled =false
+//       option_o_4_1.disabled =false
+//       option_o_4_2.disabled =false
+//       option_o_4_3.disabled =false
+//       option_o_4_4.disabled =false
+//       option_o_4_5.disabled =false
+//       option_o_4_6.disabled =false
+//       option_o_4_7.disabled =false
+//       option_o_4_8.disabled =true
+//       option_o_4_9.disabled =true
+//       option_o_4_10.disabled =true
+  
+//       option_o_5_0.disabled =false
+//       option_o_5_1.disabled =false
+//       option_o_5_2.disabled =false
+//       option_o_5_3.disabled =false
+//       option_o_5_4.disabled =false
+//       option_o_5_5.disabled =false
+//       option_o_5_6.disabled =false
+//       option_o_5_7.disabled =false
+//       option_o_5_8.disabled =true
+//       option_o_5_9.disabled =true
+//       option_o_5_10.disabled =true
+  
+//       option_o_6_0.disabled =false
+//       option_o_6_1.disabled =false
+//       option_o_6_2.disabled =false
+//       option_o_6_3.disabled =false
+//       option_o_6_4.disabled =false
+//       option_o_6_5.disabled =false
+//       option_o_6_6.disabled =false
+//       option_o_6_7.disabled =false
+//       option_o_6_8.disabled =true
+//       option_o_6_9.disabled =true
+//       option_o_6_10.disabled =true
+  
+//       option_o_7_0.disabled =false
+//       option_o_7_1.disabled =false 
+//       option_o_7_2.disabled =false
+//       option_o_7_3.disabled =false 
+//       option_o_7_4.disabled =false
+//       option_o_7_5.disabled =false 
+//       option_o_7_6.disabled =false 
+//       option_o_7_7.disabled =false 
+//       option_o_7_8.disabled =true 
+//       option_o_7_9.disabled =true 
+//       option_o_7_10.disabled =true 
+//     }
+//     else if(value_select_1_1 == 4)
+//     {
+
+//       option_o_1_0.disabled =false
+//       option_o_1_1.disabled =false
+//       option_o_1_2.disabled =false
+//       option_o_1_3.disabled =false
+//       option_o_1_4.disabled =false
+//       option_o_1_5.disabled =false
+//       option_o_1_6.disabled =false
+//       option_o_1_7.disabled =true
+//       option_o_1_8.disabled =true
+//       option_o_1_9.disabled =true
+//       option_o_1_10.disabled =true
+  
+//       option_o_2_0.disabled =false
+//       option_o_2_1.disabled =false
+//       option_o_2_2.disabled =false
+//       option_o_2_3.disabled =false
+//       option_o_2_4.disabled =false
+//       option_o_2_5.disabled =false
+//       option_o_2_6.disabled =false
+//       option_o_2_7.disabled =true
+//       option_o_2_8.disabled =true
+//       option_o_2_9.disabled =true
+//       option_o_2_10.disabled =true
+  
+//       option_o_3_0.disabled =false
+//       option_o_3_1.disabled =false
+//       option_o_3_2.disabled =false
+//       option_o_3_3.disabled =false
+//       option_o_3_4.disabled =false
+//       option_o_3_5.disabled =false
+//       option_o_3_6.disabled =false
+//       option_o_3_7.disabled =true
+//       option_o_3_8.disabled =true
+//       option_o_3_9.disabled =true
+//       option_o_3_10.disabled =true
+  
+//       option_o_4_0.disabled =false
+//       option_o_4_1.disabled =false
+//       option_o_4_2.disabled =false
+//       option_o_4_3.disabled =false
+//       option_o_4_4.disabled =false
+//       option_o_4_5.disabled =false
+//       option_o_4_6.disabled =false
+//       option_o_4_7.disabled =true
+//       option_o_4_8.disabled =true
+//       option_o_4_9.disabled =true
+//       option_o_4_10.disabled =true
+  
+//       option_o_5_0.disabled =false
+//       option_o_5_1.disabled =false
+//       option_o_5_2.disabled =false
+//       option_o_5_3.disabled =false
+//       option_o_5_4.disabled =false
+//       option_o_5_5.disabled =false
+//       option_o_5_6.disabled =false
+//       option_o_5_7.disabled =true
+//       option_o_5_8.disabled =true
+//       option_o_5_9.disabled =true
+//       option_o_5_10.disabled =true
+  
+//       option_o_6_0.disabled =false
+//       option_o_6_1.disabled =false
+//       option_o_6_2.disabled =false
+//       option_o_6_3.disabled =false
+//       option_o_6_4.disabled =false
+//       option_o_6_5.disabled =false
+//       option_o_6_6.disabled =false
+//       option_o_6_7.disabled =true
+//       option_o_6_8.disabled =true
+//       option_o_6_9.disabled =true
+//       option_o_6_10.disabled =true
+  
+//       option_o_7_0.disabled =false
+//       option_o_7_1.disabled =false 
+//       option_o_7_2.disabled =false
+//       option_o_7_3.disabled =false 
+//       option_o_7_4.disabled =false
+//       option_o_7_5.disabled =false 
+//       option_o_7_6.disabled =false 
+//       option_o_7_7.disabled =true 
+//       option_o_7_8.disabled =true 
+//       option_o_7_9.disabled =true 
+//       option_o_7_10.disabled =true 
+
+
+//     }
+//     else if(value_select_1_1 == 5)
+//     {
+//       option_o_1_0.disabled =false
+//       option_o_1_1.disabled =false
+//       option_o_1_2.disabled =false
+//       option_o_1_3.disabled =false
+//       option_o_1_4.disabled =false
+//       option_o_1_5.disabled =false
+//       option_o_1_6.disabled =true
+//       option_o_1_7.disabled =true
+//       option_o_1_8.disabled =true
+//       option_o_1_9.disabled =true
+//       option_o_1_10.disabled =true
+  
+//       option_o_2_0.disabled =false
+//       option_o_2_1.disabled =false
+//       option_o_2_2.disabled =false
+//       option_o_2_3.disabled =false
+//       option_o_2_4.disabled =false
+//       option_o_2_5.disabled =false
+//       option_o_2_6.disabled =true
+//       option_o_2_7.disabled =true
+//       option_o_2_8.disabled =true
+//       option_o_2_9.disabled =true
+//       option_o_2_10.disabled =true
+  
+//       option_o_3_0.disabled =false
+//       option_o_3_1.disabled =false
+//       option_o_3_2.disabled =false
+//       option_o_3_3.disabled =false
+//       option_o_3_4.disabled =false
+//       option_o_3_5.disabled =false
+//       option_o_3_6.disabled =true
+//       option_o_3_7.disabled =true
+//       option_o_3_8.disabled =true
+//       option_o_3_9.disabled =true
+//       option_o_3_10.disabled =true
+  
+//       option_o_4_0.disabled =false
+//       option_o_4_1.disabled =false
+//       option_o_4_2.disabled =false
+//       option_o_4_3.disabled =false
+//       option_o_4_4.disabled =false
+//       option_o_4_5.disabled =false
+//       option_o_4_6.disabled =true
+//       option_o_4_7.disabled =true
+//       option_o_4_8.disabled =true
+//       option_o_4_9.disabled =true
+//       option_o_4_10.disabled =true
+  
+//       option_o_5_0.disabled =false
+//       option_o_5_1.disabled =false
+//       option_o_5_2.disabled =false
+//       option_o_5_3.disabled =false
+//       option_o_5_4.disabled =false
+//       option_o_5_5.disabled =false
+//       option_o_5_6.disabled =true
+//       option_o_5_7.disabled =true
+//       option_o_5_8.disabled =true
+//       option_o_5_9.disabled =true
+//       option_o_5_10.disabled =true
+  
+//       option_o_6_0.disabled =false
+//       option_o_6_1.disabled =false
+//       option_o_6_2.disabled =false
+//       option_o_6_3.disabled =false
+//       option_o_6_4.disabled =false
+//       option_o_6_5.disabled =false
+//       option_o_6_6.disabled =true
+//       option_o_6_7.disabled =true
+//       option_o_6_8.disabled =true
+//       option_o_6_9.disabled =true
+//       option_o_6_10.disabled =true
+  
+//       option_o_7_0.disabled =false
+//       option_o_7_1.disabled =false 
+//       option_o_7_2.disabled =false
+//       option_o_7_3.disabled =false 
+//       option_o_7_4.disabled =false
+//       option_o_7_5.disabled =false 
+//       option_o_7_6.disabled =true 
+//       option_o_7_7.disabled =true 
+//       option_o_7_8.disabled =true 
+//       option_o_7_9.disabled =true 
+//       option_o_7_10.disabled =true 
+//     }
+//     else if(value_select_1_1 == 6)
+//     {
+//       option_o_1_0.disabled =false
+//       option_o_1_1.disabled =false
+//       option_o_1_2.disabled =false
+//       option_o_1_3.disabled =false
+//       option_o_1_4.disabled =false
+//       option_o_1_5.disabled =false
+//       option_o_1_6.disabled =true
+//       option_o_1_7.disabled =true
+//       option_o_1_8.disabled =true
+//       option_o_1_9.disabled =true
+//       option_o_1_10.disabled =true
+  
+//       option_o_2_0.disabled =false
+//       option_o_2_1.disabled =false
+//       option_o_2_2.disabled =false
+//       option_o_2_3.disabled =false
+//       option_o_2_4.disabled =false
+//       option_o_2_5.disabled =false
+//       option_o_2_6.disabled =true
+//       option_o_2_7.disabled =true
+//       option_o_2_8.disabled =true
+//       option_o_2_9.disabled =true
+//       option_o_2_10.disabled =true
+  
+//       option_o_3_0.disabled =false
+//       option_o_3_1.disabled =false
+//       option_o_3_2.disabled =false
+//       option_o_3_3.disabled =false
+//       option_o_3_4.disabled =false
+//       option_o_3_5.disabled =false
+//       option_o_3_6.disabled =true
+//       option_o_3_7.disabled =true
+//       option_o_3_8.disabled =true
+//       option_o_3_9.disabled =true
+//       option_o_3_10.disabled =true
+  
+//       option_o_4_0.disabled =false
+//       option_o_4_1.disabled =false
+//       option_o_4_2.disabled =false
+//       option_o_4_3.disabled =false
+//       option_o_4_4.disabled =false
+//       option_o_4_5.disabled =false
+//       option_o_4_6.disabled =true
+//       option_o_4_7.disabled =true
+//       option_o_4_8.disabled =true
+//       option_o_4_9.disabled =true
+//       option_o_4_10.disabled =true
+  
+//       option_o_5_0.disabled =false
+//       option_o_5_1.disabled =false
+//       option_o_5_2.disabled =false
+//       option_o_5_3.disabled =false
+//       option_o_5_4.disabled =false
+//       option_o_5_5.disabled =false
+//       option_o_5_6.disabled =true
+//       option_o_5_7.disabled =true
+//       option_o_5_8.disabled =true
+//       option_o_5_9.disabled =true
+//       option_o_5_10.disabled =true
+  
+//       option_o_6_0.disabled =false
+//       option_o_6_1.disabled =false
+//       option_o_6_2.disabled =false
+//       option_o_6_3.disabled =false
+//       option_o_6_4.disabled =false
+//       option_o_6_5.disabled =false
+//       option_o_6_6.disabled =true
+//       option_o_6_7.disabled =true
+//       option_o_6_8.disabled =true
+//       option_o_6_9.disabled =true
+//       option_o_6_10.disabled =true
+  
+//       option_o_7_0.disabled =false
+//       option_o_7_1.disabled =false 
+//       option_o_7_2.disabled =false
+//       option_o_7_3.disabled =false 
+//       option_o_7_4.disabled =false
+//       option_o_7_5.disabled =false 
+//       option_o_7_6.disabled =true 
+//       option_o_7_7.disabled =true 
+//       option_o_7_8.disabled =true 
+//       option_o_7_9.disabled =true 
+//       option_o_7_10.disabled =true 
+//     }
+//     else if(value_select_1_1 == 7)
+//     {
+//       option_o_1_0.disabled =false
+//       option_o_1_1.disabled =false
+//       option_o_1_2.disabled =false
+//       option_o_1_3.disabled =false
+//       option_o_1_4.disabled =true
+//       option_o_1_5.disabled =true
+//       option_o_1_6.disabled =true
+//       option_o_1_7.disabled =true
+//       option_o_1_8.disabled =true
+//       option_o_1_9.disabled =true
+//       option_o_1_10.disabled =true
+  
+//       option_o_2_0.disabled =false
+//       option_o_2_1.disabled =false
+//       option_o_2_2.disabled =false
+//       option_o_2_3.disabled =false
+//       option_o_2_4.disabled =true
+//       option_o_2_5.disabled =true
+//       option_o_2_6.disabled =true
+//       option_o_2_7.disabled =true
+//       option_o_2_8.disabled =true
+//       option_o_2_9.disabled =true
+//       option_o_2_10.disabled =true
+  
+//       option_o_3_0.disabled =false
+//       option_o_3_1.disabled =false
+//       option_o_3_2.disabled =false
+//       option_o_3_3.disabled =false
+//       option_o_3_4.disabled =true
+//       option_o_3_5.disabled =true
+//       option_o_3_6.disabled =true
+//       option_o_3_7.disabled =true
+//       option_o_3_8.disabled =true
+//       option_o_3_9.disabled =true
+//       option_o_3_10.disabled =true
+  
+//       option_o_4_0.disabled =false
+//       option_o_4_1.disabled =false
+//       option_o_4_2.disabled =false
+//       option_o_4_3.disabled =false
+//       option_o_4_4.disabled =true
+//       option_o_4_5.disabled =true
+//       option_o_4_6.disabled =true
+//       option_o_4_7.disabled =true
+//       option_o_4_8.disabled =true
+//       option_o_4_9.disabled =true
+//       option_o_4_10.disabled =true
+  
+//       option_o_5_0.disabled =false
+//       option_o_5_1.disabled =false
+//       option_o_5_2.disabled =false
+//       option_o_5_3.disabled =false
+//       option_o_5_4.disabled =true
+//       option_o_5_5.disabled =true
+//       option_o_5_6.disabled =true
+//       option_o_5_7.disabled =true
+//       option_o_5_8.disabled =true
+//       option_o_5_9.disabled =true
+//       option_o_5_10.disabled =true
+  
+//       option_o_6_0.disabled =false
+//       option_o_6_1.disabled =false
+//       option_o_6_2.disabled =false
+//       option_o_6_3.disabled =false
+//       option_o_6_4.disabled =true
+//       option_o_6_5.disabled =true
+//       option_o_6_6.disabled =true
+//       option_o_6_7.disabled =true
+//       option_o_6_8.disabled =true
+//       option_o_6_9.disabled =true
+//       option_o_6_10.disabled =true
+  
+//       option_o_7_0.disabled =false
+//       option_o_7_1.disabled =false 
+//       option_o_7_2.disabled =false
+//       option_o_7_3.disabled =false 
+//       option_o_7_4.disabled =true
+//       option_o_7_5.disabled =true 
+//       option_o_7_6.disabled =true 
+//       option_o_7_7.disabled =true 
+//       option_o_7_8.disabled =true 
+//       option_o_7_9.disabled =true 
+//       option_o_7_10.disabled =true 
+//     }
+//     else if(value_select_1_1 == 8)
+//     {
+
+//         option_o_1_0.disabled =false
+//         option_o_1_1.disabled =false
+//         option_o_1_2.disabled =false
+//         option_o_1_3.disabled =true
+//         option_o_1_4.disabled =true
+//         option_o_1_5.disabled =true
+//         option_o_1_6.disabled =true
+//         option_o_1_7.disabled =true
+//         option_o_1_8.disabled =true
+//         option_o_1_9.disabled =true
+//         option_o_1_10.disabled =true
+    
+//         option_o_2_0.disabled =false
+//         option_o_2_1.disabled =false
+//         option_o_2_2.disabled =false
+//         option_o_2_3.disabled =true
+//         option_o_2_4.disabled =true
+//         option_o_2_5.disabled =true
+//         option_o_2_6.disabled =true
+//         option_o_2_7.disabled =true
+//         option_o_2_8.disabled =true
+//         option_o_2_9.disabled =true
+//         option_o_2_10.disabled =true
+    
+//         option_o_3_0.disabled =false
+//         option_o_3_1.disabled =false
+//         option_o_3_2.disabled =false
+//         option_o_3_3.disabled =true
+//         option_o_3_4.disabled =true
+//         option_o_3_5.disabled =true
+//         option_o_3_6.disabled =true
+//         option_o_3_7.disabled =true
+//         option_o_3_8.disabled =true
+//         option_o_3_9.disabled =true
+//         option_o_3_10.disabled =true
+    
+//         option_o_4_0.disabled =false
+//         option_o_4_1.disabled =false
+//         option_o_4_2.disabled =false
+//         option_o_4_3.disabled =true
+//         option_o_4_4.disabled =true
+//         option_o_4_5.disabled =true
+//         option_o_4_6.disabled =true
+//         option_o_4_7.disabled =true
+//         option_o_4_8.disabled =true
+//         option_o_4_9.disabled =true
+//         option_o_4_10.disabled =true
+    
+//         option_o_5_0.disabled =false
+//         option_o_5_1.disabled =false
+//         option_o_5_2.disabled =false
+//         option_o_5_3.disabled =true
+//         option_o_5_4.disabled =true
+//         option_o_5_5.disabled =true
+//         option_o_5_6.disabled =true
+//         option_o_5_7.disabled =true
+//         option_o_5_8.disabled =true
+//         option_o_5_9.disabled =true
+//         option_o_5_10.disabled =true
+    
+//         option_o_6_0.disabled =false
+//         option_o_6_1.disabled =false
+//         option_o_6_2.disabled =false
+//         option_o_6_3.disabled =true
+//         option_o_6_4.disabled =true
+//         option_o_6_5.disabled =true
+//         option_o_6_6.disabled =true
+//         option_o_6_7.disabled =true
+//         option_o_6_8.disabled =true
+//         option_o_6_9.disabled =true
+//         option_o_6_10.disabled =true
+    
+//         option_o_7_0.disabled =false
+//         option_o_7_1.disabled =false 
+//         option_o_7_2.disabled =false
+//         option_o_7_3.disabled =true 
+//         option_o_7_4.disabled =true
+//         option_o_7_5.disabled =true 
+//         option_o_7_6.disabled =true 
+//         option_o_7_7.disabled =true 
+//         option_o_7_8.disabled =true 
+//         option_o_7_9.disabled =true 
+//         option_o_7_10.disabled =true 
+
+
+//     }
+//     else if(value_select_1_1 == 9)
+//     {
+
+//         option_o_1_0.disabled =false
+//         option_o_1_1.disabled =false
+//         option_o_1_2.disabled =true
+//         option_o_1_3.disabled =true
+//         option_o_1_4.disabled =true
+//         option_o_1_5.disabled =true
+//         option_o_1_6.disabled =true
+//         option_o_1_7.disabled =true
+//         option_o_1_8.disabled =true
+//         option_o_1_9.disabled =true
+//         option_o_1_10.disabled =true
+    
+//         option_o_2_0.disabled =false
+//         option_o_2_1.disabled =false
+//         option_o_2_2.disabled =true
+//         option_o_2_3.disabled =true
+//         option_o_2_4.disabled =true
+//         option_o_2_5.disabled =true
+//         option_o_2_6.disabled =true
+//         option_o_2_7.disabled =true
+//         option_o_2_8.disabled =true
+//         option_o_2_9.disabled =true
+//         option_o_2_10.disabled =true
+    
+//         option_o_3_0.disabled =false
+//         option_o_3_1.disabled =false
+//         option_o_3_2.disabled =true
+//         option_o_3_3.disabled =true
+//         option_o_3_4.disabled =true
+//         option_o_3_5.disabled =true
+//         option_o_3_6.disabled =true
+//         option_o_3_7.disabled =true
+//         option_o_3_8.disabled =true
+//         option_o_3_9.disabled =true
+//         option_o_3_10.disabled =true
+    
+//         option_o_4_0.disabled =false
+//         option_o_4_1.disabled =false
+//         option_o_4_2.disabled =true
+//         option_o_4_3.disabled =true
+//         option_o_4_4.disabled =true
+//         option_o_4_5.disabled =true
+//         option_o_4_6.disabled =true
+//         option_o_4_7.disabled =true
+//         option_o_4_8.disabled =true
+//         option_o_4_9.disabled =true
+//         option_o_4_10.disabled =true
+    
+//         option_o_5_0.disabled =false
+//         option_o_5_1.disabled =false
+//         option_o_5_2.disabled =true
+//         option_o_5_3.disabled =true
+//         option_o_5_4.disabled =true
+//         option_o_5_5.disabled =true
+//         option_o_5_6.disabled =true
+//         option_o_5_7.disabled =true
+//         option_o_5_8.disabled =true
+//         option_o_5_9.disabled =true
+//         option_o_5_10.disabled =true
+    
+//         option_o_6_0.disabled =false
+//         option_o_6_1.disabled =false
+//         option_o_6_2.disabled =true
+//         option_o_6_3.disabled =true
+//         option_o_6_4.disabled =true
+//         option_o_6_5.disabled =true
+//         option_o_6_6.disabled =true
+//         option_o_6_7.disabled =true
+//         option_o_6_8.disabled =true
+//         option_o_6_9.disabled =true
+//         option_o_6_10.disabled =true
+    
+//         option_o_7_0.disabled =false
+//         option_o_7_1.disabled =false 
+//         option_o_7_2.disabled =true
+//         option_o_7_3.disabled =true 
+//         option_o_7_4.disabled =true
+//         option_o_7_5.disabled =true 
+//         option_o_7_6.disabled =true 
+//         option_o_7_7.disabled =true 
+//         option_o_7_8.disabled =true 
+//         option_o_7_9.disabled =true 
+//         option_o_7_10.disabled =true 
+
+
+//     }
+
+
+
+
+
+// }
+
+
+
+
+
+
+
+
+
 function display(id) { 
 
   var checkRadio = document.querySelector('input[name="Question"]:checked');
