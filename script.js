@@ -225,31 +225,68 @@ function done2()
   // }
   // else
   // {
-    document.getElementById("disp").innerHTML
-    +=  " ORG: "
-    + org_wynik + "<br>"
+    // document.getElementById("disp").innerHTML
+    // +=  " ORG: "
+    // + org_wynik + "<br>"
 
-      + "NL: "
-    + nl_wynik + "<br>"
+    //   + "NL: "
+    // + nl_wynik + "<br>"
   
-      + " DES: "
-    + des_wynik + "<br>"
+    //   + " DES: "
+    // + des_wynik + "<br>"
 
-      + " KRE: "
-    + kre_wynik + "<br>"
+    //   + " KRE: "
+    // + kre_wynik + "<br>"
 
-      + " POSZ: "
-    + posz_wynik + "<br>"
+    //   + " POSZ: "
+    // + posz_wynik + "<br>"
 
-      + " AN: "
-    + an_wynik + "<br>"
+    //   + " AN: "
+    // + an_wynik + "<br>"
 
-      + " GG: "
-    + gg_wynik + "<br>"
+    //   + " GG: "
+    // + gg_wynik + "<br>"
 
-      + " PER: "
-    + per_wynik + "<br>";
+    //   + " PER: "
+    // + per_wynik + "<br>";
   //}
+
+  if(!isNaN(document.getElementById("punkty_org").innerHTML))
+  {
+      document.getElementById("punkty_org").innerHTML
+      +=  
+      + org_wynik + "<br>";
+
+      document.getElementById("punkty_nl").innerHTML
+      +=  
+      + nl_wynik + "<br>";
+
+      document.getElementById("punkty_des").innerHTML
+      +=  
+      + des_wynik + "<br>";
+
+      document.getElementById("punkty_kre").innerHTML
+      +=  
+      + kre_wynik + "<br>";
+
+      document.getElementById("punkty_posz").innerHTML
+      +=  
+      + posz_wynik + "<br>";
+
+      document.getElementById("punkty_an").innerHTML
+      +=  
+      + an_wynik + "<br>";
+
+      document.getElementById("punkty_gg").innerHTML
+      +=  
+      + gg_wynik + "<br>";
+
+      document.getElementById("punkty_per").innerHTML
+      +=  
+      + per_wynik + "<br>";
+
+  
+  }
 
 }
 

@@ -114,3 +114,17 @@ button{
     margin-left: 50px;
 }
 
+
+#tabela_punkty
+{
+    background-color: white;
+    margin-left: 790px;
+    font-size: 23px;
+    display:block;
+}
+
+td, th
+{
+    border: 3px solid orange;
+    border-collapse: collapse;
+}
