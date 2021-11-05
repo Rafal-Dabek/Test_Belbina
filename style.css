@@ -136,6 +136,11 @@ button{
     display:block;
 }
 
+#blue
+{
+    background-color: #E0FFFF;
+}
+
 td, th
 {
     border: 3px solid orange;
