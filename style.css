@@ -114,6 +114,19 @@ button{
     margin-left: 50px;
 }
 
+#result_table
+{
+    border: 5px solid orange;
+    border-collapse: collapse;
+    margin-left: 220px;
+    margin-right: 220px;
+    background-color: lightyellow;
+    font-size: 23px;
+    display:block;
+    
+   
+}
+
 
 #tabela_punkty
 {
@@ -127,4 +140,21 @@ td, th
 {
     border: 3px solid orange;
     border-collapse: collapse;
+    
 }
+
+#tabela_role
+{
+    background-color: white;
+    display:block;
+    font-size: 23px;
+    
+}
+
+#button_table
+{
+    width: 300px;
+    background-color: green;
+
+}
+

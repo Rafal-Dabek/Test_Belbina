@@ -1644,14 +1644,14 @@
 </div> 
    
 <div>
-    <button type="button" onclick="done2()"id="don">
+    <button type="button" onclick="done2()"id="done">
         Gotowe
     </button>
  </div> 
         
  <h3>
      <b>Wyniki testu:</b>
-
+        
 
      <!--<div id="disp" class="col-sm-12">-->
 
@@ -1708,6 +1708,280 @@
             
       <br>
     
+
+    <div>
+
+        <button type="button" onclick="show_table()" id="button_table">
+            Ukryj/Pokaż opisy wyników
+        </button>
+
+
+        
+
+        <table id="result_table">
+
+            <tr>
+                <th>Skrót</th>
+                <th>Rola</th>
+                <th>Niskie</th>
+                <th>Średnie</th>
+                <th>Wysokie</th>
+                <th>b. Wysokie</th>
+                <th>Opis roli grupowej</th>
+                <th>Cechy roli</th>
+                
+            </tr>
+
+            <tr>
+                <td><b>ORG</b></td>
+                <td><b>Organizator</b></td>
+                <td>0-6 pkt</td>
+                <td>7-11 pkt</td>
+                <td>12-16 pkt</td>
+                <td>17-23 pkt</td>
+                <td>Zamienia koncepcje i plany na praktyczne działanie i realizuje ustalone plany w sposób
+                    systematyczny i efektywny. Dzięki niemu następuje praktyczne wdrożenie projektów i
+                    planów rozwiązań. Pragnie konkretów, nie lub zmienności planów.</td>
+                <td>Zrównoważony, zdyscyplinowany.</td>
+            </tr>
+
+            <tr>
+                <td><b>NL</b></td>
+                <td><b>Naturalny Lider</b></td>
+                <td>0-6 pkt</td>
+                <td>7-10 pkt</td>
+                <td>11-13 pkt</td>
+                <td>14-23 pkt</td>
+                <td>Sprawuje pieczę i kontrolę nad sposobem, w jaki grupa stara się osiągnąć cele. Potrafi
+                    efektywnie wykorzystać zasoby zespołu; rozpoznaje, gdzie tkwią zalety, a gdzie słabości
+                    grupy; potrafi wykorzystać potencjał indywidualny każdego pracownika. Charakteryzuje go
+                    raczej zdrowy rozsądek niż rozważania intelektualne, w kierowaniu nie jest agresywny.</td>
+                <td>Zrównoważony, dominujący ekstrawertyk.</td>
+            </tr>
+
+            <tr>
+                <td><b>DES</b></td>
+                <td><b>Despota</b></td>
+                <td>0-8 pkt</td>
+                <td>9-13 pkt</td>
+                <td>14-17 pkt</td>
+                <td>18-36 pkt</td>
+                <td>Kształtuje sposób, w jaki wykorzystany zostanie wysiłek grupy; kieruje swoją uwagę na
+                    ustalanie celów i priorytetów; pragnie wywierać wpływ na kształt lub wzorzec decyzji
+                    grupowej i na wynik aktywności grupowej. Chce szybko widzieć rezultaty. Rywalizuje i
+                    bywa arogancki, ale dzięki niemu „coś się rzeczywiście dzieje”.</td>
+                <td>Niespokojny, dominujący, ekstrawertyk, impulsywny,<br> łatwo się irytuje.</td>
+            </tr>
+
+            <tr>
+                <td><b>KRE</b></td>
+                <td><b>Kreator</b></td>
+                <td>0-4 pkt</td>
+                <td>5-8 <br>pkt</td>
+                <td>9-12 <br>pkt</td>
+                <td>13-29 pkt</td>
+                <td>Wysuwa nowe pomysły i strategie ze szczególnym uwzględnieniem najistotniejszych
+                    problemów i próbuje „przedzierać się” ze swoją wizją przez grupowe podejście do problemu
+                    na zasadzie konfrontacji. Może gubić szczegóły i robić błędy, a także krytykować pomysły
+                    innych. Im większy problem, tym większe wyzwanie, żeby go rozwiązać. Uważa, że
+                    wszystkie dobre pomysły z początku dziwnie wyglądają. Roztacza wokół siebie aurę
+                    „geniusza”.</td>
+                <td>Dominujący, inteligentny, introwertyk.</td>
+            </tr>
+
+            <tr>
+                <td><b>POSZ</b></td>
+                <td><b>Poszukiwacz</b></td>
+                <td>0-6 pkt</td>
+                <td>7-9 <br>pkt</td>
+                <td>10-11 pkt</td>
+                <td>12-21 pkt</td>
+                <td>Szuka środków do realizacji zadań. Bada, analizuje i przytacza informacje na temat
+                    pomysłów, stanu wiedzy i działań na zewnątrz grupy; nawiązuje kontakty zewnętrzne, które
+                    mogą być użyteczne dla zespołu; potrafi przewidzieć niezbędne negocjacje. Popiera
+                    innowacje i jest dobrym improwizatorem.</td>
+                <td>Zrównoważony, dominujący, ekstrawertyk.</td>
+            </tr>
+
+            <tr>
+                <td><b>AN</b></td>
+                <td><b>Analityk</b></td>
+                <td>0-5 pkt</td>
+                <td>6-9 <br>pkt</td>
+                <td>10-12 pkt</td>
+                <td>13-19 pkt</td>
+                <td>Analizuje problem, ocenia pomysły i sugestie, dzięki czemu grupa startuje z lepiej
+                    przygotowanej pozycji do podjęcia wyważonej decyzji. Jest najbardziej obiektywny,
+                    bezstronny i niezaangażowany emocjonalnie, lubi mieć czas do namysłu. Brak mu
+                    entuzjazmu, ale jego spokój pozwala na podjęcie wyważonych decyzji.</td>
+                <td>Inteligentny, zrównoważony, introwertyk.</td>
+            </tr>
+
+            <tr>
+                <td><b>GG</b></td>
+                <td><b>Gracz Grupowy</b></td>
+                <td>0-8 pkt</td>
+                <td>9-12 pkt</td>
+                <td>13-16 pkt</td>
+                <td>17-25 pkt</td>
+                <td>Wspiera członków grupy, podbudowuje morale grupy, jeśli są jakieś niedociągnięcia i
+                    braki. Potrafi zapobiegać konfliktom, kształtuje „ducha” zespołu. Może jego wkład nie jest
+                    zbyt wyraźny, ale nieoceniona jest jego lojalność i oddanie wobec grupy, nie lubi konfliktów.</td>
+                <td>Ekstrawertyk, zrównoważony,<br> niskie pragnienie dominacji i rywalizacji,<br> zdolność
+                    empatii.</td>
+            </tr>
+
+            <tr>
+                <td><b>PER</b></td>
+                <td><b>Perfekcjonista</b></td>
+                <td>0-3 pkt</td>
+                <td>4-6 <br>pkt</td>
+                <td>7-9 <br>pkt</td>
+                <td>10-17 pkt</td>
+                <td>Nastawiony na konkretny efekt — na zakończenie zadania w określonym czasie i
+                    zapewnienie mu jak najwyższego standardu wykonania. Może być trudny w kontaktach,
+                    ponieważ jest wrogiem przypadku i grzęźnie w szczegółach, które nie są najistotniejsze dla
+                    ukończenia zadania. Zawsze świadomy celu.</td>
+                <td>Niespokojny, zdyscyplinowany, introwertyk.</td>
+            </tr>
+
+
+
+        </table>
+
+        <div>
+            <h3>
+                <b>Jakie osoby warto mieć w zespole?</b>
+            </h3>
+
+            <table id = "tabela_role">
+                <tr>
+                    <th>Rola</th>
+                    <th>Typowe cechy</th>
+                    <th>Pozytywne strony</th>
+                    <th>Możliwe słabości</th>
+                    
+                </tr>
+
+                <tr>
+                    <td><b>Organizator</b></td>
+                    <td>Konserwatywny,obowiązkowy,praktyczny.</td>
+                    <td>Zdolności organizacyjne,zdrowy rozsądek,samokontrola.</td>
+                    <td>Brak plastyczności,
+                        możliwe
+                        powątpiewanie w
+                        nowe pomysły i
+                        zmiany.</td>
+                </tr>
+
+                <tr>
+                    <td><b>Naturalny Lider</b></td>
+                    <td>Spokojny, pewny
+                        siebie,
+                        zdyscyplinowany.</td>
+                    <td>Zdolność do dostrzegania
+                        potencjału tkwiącego w
+                        ludziach i silne skupienie
+                        na celach.</td>
+                    <td>Przeciętny, jeśli
+                        chodzi o zdolności
+                        intelektualne i
+                        twórcze.</td>
+                </tr>
+
+                <tr>
+                    <td><b>Despota</b></td>
+                    <td>Bardzo napięty,
+                        dynamiczny,
+                        stawiający wyzwania.</td>
+                    <td>Pragnienie i gotowość
+                        przezwyciężenia inercji,
+                        braku efektywności i
+                        samozadowolenia.</td>
+                    <td>Skłonność do
+                        prowokowania,
+                        irytacji i niepokoju.</td>
+                </tr>
+
+                <tr>
+                    <td><b>Kreator</b></td>
+                    <td>Indywidualista,
+                        poważny,
+                        niekonwencjonalny.</td>
+                    <td>Geniusz, wyobraźnia,
+                        intelekt, wiedza.</td>
+                    <td>Bujanie w obłokach,
+                        możliwe pomijanie
+                        praktycznych
+                        szczegółów.</td>
+                </tr>
+
+                <tr>
+                    <td><b>Poszukiwacz</b></td>
+                    <td>Ekstrawertyk,
+                        entuzjasta, ciekawy
+                        świata,
+                        komunikatywny.</td>
+                    <td>Zdolność do
+                        kontaktowania się z
+                        ludźmi i odkrywania tego,
+                        co nowe, Umiejętność
+                        reagowania na wyzwania.</td>
+                    <td>Szybko traci
+                        zainteresowanie, gdy
+                        mija pierwsza
+                        fascynacja.</td>
+                </tr>
+
+                <tr>
+                    <td><b>Analityk</b></td>
+                    <td>Trzeźwy, bez emocji,
+                        ostrożny.</td>
+                    <td>Umiejętność oceny,
+                        dyskrecja, praktyczność i
+                        nie bawienie się w
+                        sentymenty.</td>
+                    <td>Brak umiejętności
+                        inspiracji i zdolności
+                        do motywowania
+                        innych.</td>
+                </tr>
+
+                <tr>
+                    <td><b>Gracz grupowy</b></td>
+                    <td>Zorientowany na
+                        społeczną stronę
+                        pracy, łagodny,
+                        wrażliwy.</td>
+                    <td>Umiejętność wczuwania
+                        się w ludzi i w sytuacje,
+                        umiejętność wzbudzania
+                        „ducha grupy”.</td>
+                    <td>Brak zdecydowania
+                        w sytuacjach
+                        kryzysowych.</td>
+                </tr>
+                
+                <tr>
+                    <td><b>Perfekcjonista</b></td>
+                    <td>Staranny,
+                        uporządkowany,
+                        sumienny,
+                        niespokojny.</td>
+                    <td>Zdolność do
+                        doprowadzenia do skutku,
+                        perfekcjonizm.</td>
+                    <td>Skłonność do
+                        martwienia się
+                        drobiazgami,
+                        napięcie.</td>
+                </tr>
+                
+
+            </table>
+
+        </div>
+
 
     </div>
     
