@@ -118,8 +118,9 @@ button{
 {
     border: 5px solid orange;
     border-collapse: collapse;
-    margin-left: 220px;
-    margin-right: 220px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: lightyellow;
     font-size: 23px;
     display:block;
@@ -131,7 +132,8 @@ button{
 #tabela_punkty
 {
     background-color: white;
-    margin-left: 790px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 23px;
     
 }
@@ -153,6 +155,9 @@ td, th
     background-color: white;
     display:block;
     font-size: 23px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -162,4 +167,7 @@ td, th
     background-color: green;
 
 }
+
+
+
 
