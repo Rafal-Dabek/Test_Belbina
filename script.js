@@ -305,7 +305,7 @@ var strUser = e.value;
           }
         }
         //czyszczenie 
-        for(var k=1;k<3;k++){ 
+        for(var k=1;k<9;k++){ 
           for(var l=0;l<11;l++){
             
             
@@ -321,7 +321,7 @@ var strUser = e.value;
         console.log(suma);
 
         //disabledowanie
-        for(var k=1;k<3;k++){ 
+        for(var k=1;k<9;k++){ 
           for(var l=0;l<11;l++){
             
             
