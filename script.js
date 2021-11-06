@@ -293,7 +293,7 @@ var strUser = e.value;
         
 
 
-        for(var k=1;k<3;k++){ //sumowanie
+        for(var k=1;k<9;k++){ //sumowanie
           for(var l=0;l<11;l++){
             //console.log("yay")
             if(document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).checked == true)
