@@ -337,7 +337,5 @@ var strUser = e.value;
  
   }
   
-  else {
-      //document.getElementById("disp").innerHTML= "No one selected";
-  }
+  
 }
