@@ -270,3 +270,74 @@ function reset(id) {
   }
 
 } 
+
+
+function display(id) { 
+
+   var checkRadio = document.querySelector('input[name="Question"]:checked');
+  var e = document.getElementById(id);
+var strUser = e.value;
+  //console.log(strUser); // en   
+ // alert (strUser);
+  if(checkRadio != null) {
+      
+          
+         var question=id.slice(0, 1);
+          
+        
+          var number=id.slice(2, 3);
+          var point=id.slice(4, 5);
+          if(id.length==6)point=10;
+         var suma=0;
+
+        
+
+
+        for(var k=1;k<3;k++){ //sumowanie
+          for(var l=0;l<11;l++){
+            //console.log("yay")
+            if(document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).checked == true)
+            {
+             suma+= parseInt(document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).value)
+            
+            }
+            
+          }
+        }
+        //czyszczenie 
+        for(var k=1;k<3;k++){ 
+          for(var l=0;l<11;l++){
+            
+            
+            if(parseInt(document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).value) + suma<=10)
+            {
+              if(!document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).checked == true)document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).disabled = false
+            
+            }
+            
+          }
+        }
+
+        console.log(suma);
+
+        //disabledowanie
+        for(var k=1;k<3;k++){ 
+          for(var l=0;l<11;l++){
+            
+            
+            if(parseInt(document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).value) + suma>10)
+            {
+              if(!document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).checked == true)document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).disabled = true
+            
+            }
+            
+          }
+        }
+
+ 
+  }
+  
+  else {
+      //document.getElementById("disp").innerHTML= "No one selected";
+  }
+}
