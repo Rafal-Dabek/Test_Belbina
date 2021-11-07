@@ -766,7 +766,7 @@ function done3()
   
 
 
-  if(!isNaN(document.getElementById("punkty_org").innerHTML))
+  if(!isNaN(document.getElementById("punkty_org").innerHTML)&&(org+nl+des+kre+posz+an+gg+per==70))
   {
 
     document.getElementById("punkty_org").innerHTML
@@ -803,6 +803,9 @@ function done3()
 
 
   }
+  else{
+    alert("Nie wypełniłeś wszytkich pól");
+  }
   
 }
 
@@ -830,7 +833,7 @@ var strUser = e.value;
 
         for(var k=1;k<9;k++){ //sumowanie
           for(var l=0;l<11;l++){
-            //console.log("yay")
+           
             if(document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).checked == true)
             {
              suma+= parseInt(document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).value)
