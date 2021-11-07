@@ -272,6 +272,541 @@ function reset(id) {
 } 
 
 
+function done3()
+{
+  var org = 0;
+  var nl = 0;
+  var des = 0;
+  var kre = 0;
+  var posz = 0;
+  var an = 0;
+  var gg = 0;
+  var per = 0;
+
+  //org
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("0_1_"+i.toString()).checked == true)
+    {
+      org += parseInt(document.getElementById("0_1_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("1_1_"+i.toString()).checked == true)
+    {
+      org += parseInt(document.getElementById("1_1_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("2_1_"+i.toString()).checked == true)
+    {
+      org += parseInt(document.getElementById("2_1_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("3_1_"+i.toString()).checked == true)
+    {
+      org += parseInt(document.getElementById("3_1_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("4_1_"+i.toString()).checked == true)
+    {
+      org += parseInt(document.getElementById("4_1_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("5_1_"+i.toString()).checked == true)
+    {
+      org += parseInt(document.getElementById("5_1_"+i.toString()).value)
+    }
+  }
+
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("6_1_"+i.toString()).checked == true)
+    {
+      org += parseInt(document.getElementById("6_1_"+i.toString()).value)
+    }
+  }
+
+
+//nl
+  
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("0_2_"+i.toString()).checked == true)
+    {
+      nl += parseInt(document.getElementById("0_2_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("1_2_"+i.toString()).checked == true)
+    {
+      nl += parseInt(document.getElementById("1_2_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("2_2_"+i.toString()).checked == true)
+    {
+      nl += parseInt(document.getElementById("2_2_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("3_2_"+i.toString()).checked == true)
+    {
+      nl += parseInt(document.getElementById("3_2_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("4_2_"+i.toString()).checked == true)
+    {
+      nl += parseInt(document.getElementById("4_2_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("5_2_"+i.toString()).checked == true)
+    {
+      nl += parseInt(document.getElementById("5_2_"+i.toString()).value)
+    }
+  }
+
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("6_2_"+i.toString()).checked == true)
+    {
+      nl += parseInt(document.getElementById("6_2_"+i.toString()).value)
+    }
+  }
+
+
+  //des
+  
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("0_3_"+i.toString()).checked == true)
+    {
+      des += parseInt(document.getElementById("0_3_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("1_3_"+i.toString()).checked == true)
+    {
+      des += parseInt(document.getElementById("1_3_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("2_3_"+i.toString()).checked == true)
+    {
+      des += parseInt(document.getElementById("2_3_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("3_3_"+i.toString()).checked == true)
+    {
+      des += parseInt(document.getElementById("3_3_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("4_3_"+i.toString()).checked == true)
+    {
+      des += parseInt(document.getElementById("4_3_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("5_3_"+i.toString()).checked == true)
+    {
+      des += parseInt(document.getElementById("5_3_"+i.toString()).value)
+    }
+  }
+
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("6_3_"+i.toString()).checked == true)
+    {
+      des += parseInt(document.getElementById("6_3_"+i.toString()).value)
+    }
+  }
+
+  
+  //kre
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("0_4_"+i.toString()).checked == true)
+    {
+      kre += parseInt(document.getElementById("0_4_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("1_4_"+i.toString()).checked == true)
+    {
+      kre += parseInt(document.getElementById("1_4_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("2_4_"+i.toString()).checked == true)
+    {
+      kre += parseInt(document.getElementById("2_4_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("3_4_"+i.toString()).checked == true)
+    {
+      kre += parseInt(document.getElementById("3_4_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("4_4_"+i.toString()).checked == true)
+    {
+      kre += parseInt(document.getElementById("4_4_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("5_4_"+i.toString()).checked == true)
+    {
+      kre += parseInt(document.getElementById("5_4_"+i.toString()).value)
+    }
+  }
+
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("6_4_"+i.toString()).checked == true)
+    {
+      kre += parseInt(document.getElementById("6_4_"+i.toString()).value)
+    }
+  }
+
+
+  //posz
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("0_5_"+i.toString()).checked == true)
+    {
+      posz += parseInt(document.getElementById("0_5_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("1_5_"+i.toString()).checked == true)
+    {
+      posz += parseInt(document.getElementById("1_5_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("2_5_"+i.toString()).checked == true)
+    {
+      posz += parseInt(document.getElementById("2_5_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("3_5_"+i.toString()).checked == true)
+    {
+      posz += parseInt(document.getElementById("3_5_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("4_5_"+i.toString()).checked == true)
+    {
+      posz += parseInt(document.getElementById("4_5_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("5_5_"+i.toString()).checked == true)
+    {
+      posz += parseInt(document.getElementById("5_5_"+i.toString()).value)
+    }
+  }
+
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("6_5_"+i.toString()).checked == true)
+    {
+      posz += parseInt(document.getElementById("6_5_"+i.toString()).value)
+    }
+  }
+
+
+
+  //an
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("0_6_"+i.toString()).checked == true)
+    {
+      an += parseInt(document.getElementById("0_6_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("1_6_"+i.toString()).checked == true)
+    {
+      an += parseInt(document.getElementById("1_6_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("2_6_"+i.toString()).checked == true)
+    {
+      an += parseInt(document.getElementById("2_6_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("3_6_"+i.toString()).checked == true)
+    {
+      an += parseInt(document.getElementById("3_6_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("4_6_"+i.toString()).checked == true)
+    {
+      an += parseInt(document.getElementById("4_6_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("5_6_"+i.toString()).checked == true)
+    {
+      an += parseInt(document.getElementById("5_6_"+i.toString()).value)
+    }
+  }
+
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("6_6_"+i.toString()).checked == true)
+    {
+      an += parseInt(document.getElementById("6_6_"+i.toString()).value)
+    }
+  }
+  
+
+  //gg
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("0_7_"+i.toString()).checked == true)
+    {
+      gg += parseInt(document.getElementById("0_7_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("1_7_"+i.toString()).checked == true)
+    {
+      gg += parseInt(document.getElementById("1_7_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("2_7_"+i.toString()).checked == true)
+    {
+      gg += parseInt(document.getElementById("2_7_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("3_7_"+i.toString()).checked == true)
+    {
+      gg += parseInt(document.getElementById("3_7_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("4_7_"+i.toString()).checked == true)
+    {
+      gg += parseInt(document.getElementById("4_7_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("5_7_"+i.toString()).checked == true)
+    {
+      gg += parseInt(document.getElementById("5_7_"+i.toString()).value)
+    }
+  }
+
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("6_7_"+i.toString()).checked == true)
+    {
+      gg += parseInt(document.getElementById("6_7_"+i.toString()).value)
+    }
+  }
+
+
+  //per
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("0_8_"+i.toString()).checked == true)
+    {
+      per += parseInt(document.getElementById("0_8_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("1_8_"+i.toString()).checked == true)
+    {
+      per += parseInt(document.getElementById("1_8_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("2_8_"+i.toString()).checked == true)
+    {
+      per += parseInt(document.getElementById("2_8_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("3_8_"+i.toString()).checked == true)
+    {
+      per += parseInt(document.getElementById("3_8_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("4_8_"+i.toString()).checked == true)
+    {
+      per += parseInt(document.getElementById("4_8_"+i.toString()).value)
+    }
+  }
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("5_8_"+i.toString()).checked == true)
+    {
+      per += parseInt(document.getElementById("5_8_"+i.toString()).value)
+    }
+  }
+
+
+  for(var i=0; i<11; i++)
+  {
+    if(document.getElementById("6_8_"+i.toString()).checked == true)
+    {
+      per += parseInt(document.getElementById("6_8_"+i.toString()).value)
+    }
+  }
+  
+  
+
+
+  if(!isNaN(document.getElementById("punkty_org").innerHTML))
+  {
+
+    document.getElementById("punkty_org").innerHTML
+    +=  
+    + org + "<br>";
+
+    document.getElementById("punkty_nl").innerHTML
+        +=  
+        + nl + "<br>";
+
+        document.getElementById("punkty_des").innerHTML
+        +=  
+        + des + "<br>";
+
+        document.getElementById("punkty_kre").innerHTML
+        +=  
+        + kre + "<br>";
+
+        document.getElementById("punkty_posz").innerHTML
+        +=  
+        + posz + "<br>";
+
+        document.getElementById("punkty_an").innerHTML
+        +=  
+        + an + "<br>";
+
+        document.getElementById("punkty_gg").innerHTML
+        +=  
+        + gg + "<br>";
+
+        document.getElementById("punkty_per").innerHTML
+        +=  
+        + per + "<br>";
+
+
+  }
+  
+}
+
+
 function display(id) { 
 
    var checkRadio = document.querySelector('input[name="Question"]:checked');
@@ -288,7 +823,7 @@ var strUser = e.value;
           var number=id.slice(2, 3);
           var point=id.slice(4, 5);
           if(id.length==6)point=10;
-         var suma=0;
+          var suma=0;
 
         
 
@@ -299,7 +834,7 @@ var strUser = e.value;
             if(document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).checked == true)
             {
              suma+= parseInt(document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).value)
-            
+                //alert(suma);
             }
             
           }
