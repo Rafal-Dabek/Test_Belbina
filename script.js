@@ -186,11 +186,7 @@ function show_table()
     else if(document.getElementById("result_table").style.display="block")
         document.getElementById("result_table").style.display="none";
 
-  // if (document.getElementById("tabela_role").style.display == "none")
-  //       document.getElementById("tabela_role").style.display="block";
-  //   else if(document.getElementById("tabela_role").style.display="block")
-  //       document.getElementById("tabela_role").style.display="none";
-
+  
   
 }
 
@@ -263,9 +259,7 @@ function reset(id) {
 
       document.getElementById(id + "_"+k.toString() +"_"+ l.toString()  ).disabled = false;
       document.getElementById(id + "_"+k.toString() +"_"+ l.toString()  ).checked = false;
-      //document.getElementById(id + "_"+k.toString() +"_"+ l.toString()  ).checked = false;
-
-      //document.getElementById("0_1_3").disabled = false;
+      
     }
   }
 
@@ -815,8 +809,7 @@ function display(id) {
    var checkRadio = document.querySelector('input[name="Question"]:checked');
   var e = document.getElementById(id);
 var strUser = e.value;
-  //console.log(strUser); // en   
- // alert (strUser);
+  
   if(checkRadio != null) {
       
           
@@ -837,7 +830,7 @@ var strUser = e.value;
             if(document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).checked == true)
             {
              suma+= parseInt(document.getElementById(question + "_"+k.toString() +"_"+ l.toString()  ).value)
-                //alert(suma);
+              
             }
             
           }
