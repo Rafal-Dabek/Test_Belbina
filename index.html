@@ -2853,7 +2853,7 @@
 </div> 
    
 <div>
-    <button type="button" onclick="done3()" id="done">
+    <button type="button" onclick="done3() ;show_table()" onclick="" id="done">
         Gotowe
     </button>
  </div> 
@@ -2920,14 +2920,11 @@
 
     <div>
 
-        <button type="button" onclick="show_table()" id="button_table">
-            Ukryj/Pokaż opis wyniku
-        </button>
-
+       
 
         
 
-        <table id="result_table" class="table table-striped" style="overflow-x:auto;">
+        <table id="result_table" class="table table-striped" style="overflow-x:auto; display : none">
 
             <tr>
                 <th id = "blue">Skrót</th>
@@ -3063,7 +3060,7 @@
                 <b>Jakie osoby warto mieć w zespole?</b>
             </h3>
 
-            <table id = "tabela_role" style="overflow-x:auto;">
+            <table id = "tabela_role" style="overflow-x:auto;display: none">
                 <tr>
                     <th>Rola</th>
                     <th>Typowe cechy</th>
