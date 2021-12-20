@@ -744,7 +744,7 @@ function done3()
 
 
   }
-  else{
+  else if(org+nl+des+kre+posz+an+gg+per!=70){
     alert("Nie wypełniłeś wszytkich pól");
   }
   
