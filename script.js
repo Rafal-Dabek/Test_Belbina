@@ -696,7 +696,7 @@ function done3()
   
 
 
-  if(!isNaN(document.getElementById("punkty_org").innerHTML)&&(org+nl+des+kre+posz+an+gg+per==70))
+  if((!isNaN(document.getElementById("punkty_org").innerHTML))&&(org+nl+des+kre+posz+an+gg+per==70))
   {
 
     document.getElementById("punkty_org").innerHTML
@@ -730,6 +730,17 @@ function done3()
         document.getElementById("punkty_per").innerHTML
         +=  
         + per + "<br>";
+
+        if (document.getElementById("result_table").style.display == "none"&&(org+nl+des+kre+posz+an+gg+per==70)&&document.getElementById("tabela_role").style.display == "none"){
+          document.getElementById("result_table").style.display="block";
+          document.getElementById("tabela_role").style.display="block";
+        }
+             
+          else if(document.getElementById("result_table").style.display="block" &&document.getElementById("tabela_role").style.display == "block"){
+            document.getElementById("result_table").style.display="none";
+            document.getElementById("tabela_role").style.display="none";
+          }
+
 
 
   }
