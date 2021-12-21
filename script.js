@@ -731,15 +731,7 @@ function done3()
         +=  
         + per + "<br>";
 
-        if ((document.getElementById("result_table").style.display == "none")&&(org+nl+des+kre+posz+an+gg+per==70)&&(document.getElementById("tabela_role").style.display == "none")){
-          document.getElementById("result_table").style.display="block";
-          document.getElementById("tabela_role").style.display="block";
-        }
-             
-          else if(document.getElementById("result_table").style.display="block" &&document.getElementById("tabela_role").style.display == "block"){
-            document.getElementById("result_table").style.display="none";
-            document.getElementById("tabela_role").style.display="none";
-          }
+        
 
 
 
